@@ -1,0 +1,130 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    
+}
+
+.worksTittle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    
+}
+
+.worksImg {
+    display: flex; /* Alinea las imágenes horizontalmente */
+    flex-wrap: wrap; /* Permite que las imágenes fluyan a la siguiente fila si no caben en una fila */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    width: 80%;
+    max-width: 60rem; /* Asegura que no se desborden de la caja principal */
+  }
+  
+  .worksImg img {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    max-width: 100%; /* Evita que las imágenes se salgan del contenedor */
+  }
+
+.workBtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1rem;
+}
+
+
+
+
+.github-link,
+.demo-link {
+  background: white;
+  border: none;
+  padding: 0.75rem 3.5rem;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Agrega transiciones para el color de fondo y el color del texto */
+}
+
+.github-link:hover,
+.demo-link:hover {
+  background-color: black; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+  color: white; /* Cambia el color del texto al pasar el cursor sobre el botón */
+}
+
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem; /* Añade margen entre proyectos */
+    padding: 1rem; /* Añade espacio alrededor del proyecto */
+    background: rgba(48, 47, 47, 0.8); /* Fondo ligeramente transparente para destacar */
+    border-radius: 0.5rem;
+  }
+  .project h3 {
+    font-size: 1.5rem; /* Tamaño de fuente para el título */
+  }
+
+
+.project-description {
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+  color: white; /* Cambia el color del texto a blanco o el que desees */
+}
+
+/* Aplica el estilo cuando el cursor está sobre un proyecto */
+.project:hover .projectImg {
+  transform: scale(1.1); /* Escala la imagen al 110% del tamaño original */
+}
+
+.project .project-description {
+  opacity: 0; /* Inicialmente oculta la descripción */
+  height: 0; /* Inicialmente oculta la descripción */
+  overflow: hidden;
+  transition: opacity 0.3s ease, height 0.3s ease;
+}
+
+.project:hover .project-description {
+  opacity: 1; /* Hace que la descripción sea visible */
+  height: auto; /* Ajusta la altura automáticamente para mostrar el contenido completo */
+}
+
+
+@media screen and (max-width:585px) {
+    .worksImg{
+        height: 48vw;
+    }
+    
+}
