@@ -104,7 +104,7 @@
   color: white; /* Cambia el color del texto a blanco o el que desees */
 }
 
-/* Aplica el estilo cuando el cursor está sobre un proyecto */
+Aplica el estilo cuando el cursor está sobre un proyecto
 .project:hover .projectImg {
   transform: scale(1.1); /* Escala la imagen al 110% del tamaño original */
 }

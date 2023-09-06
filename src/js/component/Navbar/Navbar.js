@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
-import logo from "../../../img/logo100.png"
+// import logo from "../../../img/logo100.png"
 import menu from "../../../img/menu.png"
 import contact from "../../../img/contact.png"
 
@@ -13,7 +13,7 @@ const Navbar = () => {
  
   return (
     <nav className='navbar'>
-      <img src={logo} alt='Logo' className='logo' />
+      {/* <img src={logo} alt='Logo' className='logo' /> */}
       <div className='desktopMenu'>
         <Link activeClass='active' to="intro" spy={true} smooth={true} offset={-100} duration={100} className='desktopMenuListItem'> Home</Link>
         <Link  activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={100} className='desktopMenuListItem'> Habilidades</Link>

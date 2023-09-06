@@ -5,26 +5,13 @@ import tikets from "../../../img/tikets.png";
 const proyectosData = [
   {
     title: 'Wizz Mail',
-    long_description: 'Aplicación encargada de gestionar y manipular los tickets de los clientes mediante la inteligencia artificial. ',
-    img: tikets,
-    link_github: 'https://github.com/AlvaroMartinFernandez/Fronted-Ticketing-APP',
-    link_demo: 'https://fronted-ticketing-app.vercel.app/',
-  },
-  {
-    title: 'StarwarApi',
-    long_description: 'Aplicación encargada de gestionar y manipular los tickets de los clientes mediante la inteligencia artificial. ',
-    img: tikets,
-    link_github: 'https://github.com/AlvaroMartinFernandez/Fronted-Ticketing-APP',
-    link_demo: 'https://fronted-ticketing-app.vercel.app/',
-  },
-  {
-    title: 'Wizz Mail',
-    long_description: 'Aplicación encargada de gestionar y manipular los tickets de los clientes mediante la inteligencia artificial. ',
+    long_description: 'Aplicación encargada de gestionar y manipular los tickets de los clientes mediante la inteligencia artificial. Trabajo final realizado en un equipo de 3 personas en un plazo de un mes. Para llevarlo a cabo utilizamos el framework React en la parte del Frontend y Python y Flask en la parte del servidor. ',
     img: tikets,
     link_github: 'https://github.com/AlvaroMartinFernandez/Fronted-Ticketing-APP',
     link_demo: 'https://fronted-ticketing-app.vercel.app/',
   }
   
+ 
   
   // Agrega más proyectos aquí
 ];

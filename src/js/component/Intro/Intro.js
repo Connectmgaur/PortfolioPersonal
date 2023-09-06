@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from "../../../img/gg.png";
+import me from "../../../img/mee.png";
 import btnImg from "../../../img/hireme.png"
 import linkedin from "../../../img/linkedin.png"
 import github from "../../../img/github.png"
@@ -23,12 +23,14 @@ const Intro = () => {
         impactantes e innovadoras. Estoy listo para enfrentar cualquier<br/>
         desafío y seguir sorprendiendo al mundo con mis logros.
       </p>
-       <Link><button className='btn'><img src={btnImg} alt='btn' /> Hablamos?</button></Link>
+      <a href="https://app.enhancv.com/share/2558ba10/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" download="Mi_Curriculum.pdf">
+  <button className='btn'><img src={btnImg} alt='btn' /> Ver mi currículum</button>
+</a>
       
 
       </div>
 
-     <img src={bg} alt='Profile' className="bg" />
+     <img src={me} alt='Profile' className="bg" />
 
 
     </section>
