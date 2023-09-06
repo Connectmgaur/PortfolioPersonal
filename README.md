@@ -1,42 +1,40 @@
-# Hello World with React boilerplate
+# Portfolio Personal 🌟
 
-Start coding a react application
+¡Bienvenido a mi portfolio personal en GitHub! Aquí encontrarás una muestra de mis proyectos, habilidades y experiencia en el mundo de la programación y el desarrollo.
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
+## Acerca de mí 
 
-## How to start coding?
+¡Hola! Soy Antonio Morales, un apasionado desarrollador de software y la tecnologia. 
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
+## Proyectos Destacados 🥇
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+A continuación, se presentan algunos de los proyectos destacados en los que he trabajado:
 
-## Local Installation (skip if you are working on codespaces or gitpod)
+### Wizz Mail https://github.com/AlvaroMartinFernandez/Fronted-Ticketing-APP
 
-Download the boilerplate using git
+Aplicación encargada de contestar los tickets y email de las empresas mediante la inteligencia artificial.
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
 
-## Publish your website!
+## Habilidades 🎨
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+- Lenguajes de Programación: Python, JavaScript
+- Frameworks y Librerías: React, Flask
+- Desarrollo Web: HTML5 y CSS3 para la estructura y el estilo de las páginas web. JavaScript para la interacción del usuario y la programación del lado del cliente. Bootstrap y Tailwind 
+  para el diseño responsivo. Sass para la preprocesamiento de CSS. WordPress para el desarrollo de sitios web de gestión de contenido.
+- Bases de Datos: MySQL, PostgreSQL ,SQLite
+- Otras Habilidades: Git y GitHub para el control de versiones y la colaboración en equipo. Conocimientos en diseño gráfico y herramientas como Adobe Photoshop e Illustrator.
+ 
+## Contacto 📩
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+Si deseas ponerse en contacto conmigo o colaborar en algún proyecto, no dudes en hacerlo a través de mis redes sociales o mi correo electrónico:
 
-## Other features
+- LinkedIn: https://www.linkedin.com/in/antonio-morales-gim%C3%A9nez/
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+- Correo Electrónico: antoniomora.gimenez@gmail.com
 
-### Contributors
+## Agradecimientos 🎁
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+Quiero agradecer a todas las personas que me han apoyado en mi viaje como desarrollador y a quienes han contribuido a mis proyectos. ¡Gracias!
 
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+¡Gracias por visitar mi portfolio personal!
+
