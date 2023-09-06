@@ -2,7 +2,7 @@
 
 ¡Bienvenido a mi portfolio personal en GitHub! Aquí encontrarás una muestra de mis proyectos, habilidades y experiencia en el mundo de la programación y el desarrollo.
 
-## Acerca de mí 
+## Acerca de mí 😁
 
 ¡Hola! Soy Antonio Morales, un apasionado desarrollador de software y la tecnologia. 
 
@@ -12,7 +12,7 @@ A continuación, se presentan algunos de los proyectos destacados en los que he 
 
 ### [Proyecto 1](https://github.com/AlvaroMartinFernandez/Fronted-Ticketing-APP) 🏆
 
-Aplicación encargada de contestar los tickets y email de las empresas mediante la inteligencia artificial.El objetico es automatizar la gestion y la contestacion automatica mendiante el ChatGPT.Para ello se ha utilizado el framework de React en la parte del fronted y Python y Flask en la parte del servidor.Además de utilizar la API de ChatGPT para lograr la contestacion a los correos de cada cliente.
+Aplicación encargada de contestar los tickets y email de las empresas mediante la inteligencia artificial. El objetico es automatizar la gestion y la contestacion automatica mendiante el ChatGPT.Para ello se ha utilizado el framework de React en la parte del fronted y Python y Flask en la parte del servidor. Además de utilizar la API de ChatGPT para lograr la contestacion a los correos de cada cliente.
 
 
 ## Habilidades 🎨
@@ -31,7 +31,7 @@ Aplicación encargada de contestar los tickets y email de las empresas mediante 
 Si deseas ponerse en contacto conmigo o colaborar en algún proyecto, no dudes en hacerlo a través de mis redes sociales o mi correo electrónico:
 
 Puedes contactarme en [antoniomora.gimenez@gmail.com](mailto:antoniomora.gimenez@gmail.com) o visitar mi perfil de [![LinkedIn](https://img.icons8.com/color/48/000000/linkedin.png)](https://www.linkedin.com/in/antonio-morales-gim%C3%A9nez-840034137/)
- y [![Git](https://img.icons8.com/color/48/000000/git.png)](https://github.com/AntonioMorales17).
+ 
 
 ## Agradecimientos 🎁
 
