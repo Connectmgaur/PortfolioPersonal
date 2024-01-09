@@ -9,30 +9,25 @@ import "./Intro.css"
 const Intro = () => {
   return (
     <section id='intro'>
-    <div className='introContent'>
-      <span className='Hello'>Bienvenidos,</span>
-      <span className='introText'>
-        Soy <span className='introName'>Antonio</span><br/>
-        Programador Junior capaz de hacer <br/>cosas increíbles
-      </span>
-      <p className='introPara'>
-        Con experiencia en marketing y comercio electrónico,<br/>
-        siempre he sentido una profunda fascinación por la tecnología y el<br/>
-        mundo digital. En mi nueva etapa como programador junior, estoy<br/>
-        decidido a demostrar mi pasión y habilidades, creando soluciones<br/>
-        impactantes e innovadoras. Estoy listo para enfrentar cualquier<br/>
-        desafío y seguir sorprendiendo al mundo con mis logros.
-      </p>
-      <a href="https://app.enhancv.com/share/2558ba10/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" download="Mi_Curriculum.pdf">
-  <button className='btn'><img src={btnImg} alt='btn' /> Ver mi currículum</button>
-</a>
-      
-
+      <div className='introContent'>
+        <span className='Hello'>Hello,</span>
+        <span className='introText'>
+          I'm <span className='introName'>Meenakshi</span><br/>
+          A Junior Programmer capable of doing <br/>amazing things
+        </span>
+        <p className='introPara'>
+          With experience in Digital Transformation and HR,<br/>
+          I have always had a deep fascination for technology and the<br/>
+          digital world. In my new stage as a junior programmer, I am<br/>
+          determined to showcase my passion and skills by creating impactful<br/>
+          and innovative solutions. I am ready to face any challenge and<br/>
+          continue surprising the world with my achievements.
+        </p>
+        <a href="https://www.resumonk.com/users/920588-connectgauravchauhan/resumes/1721898/preview?screen=resume" download="My_Resume.pdf">
+          <button className='btn'><img src={btnImg} alt='btn' /> View my resume</button>
+        </a>
       </div>
-
-     <img src={me} alt='Profile' className="bg" />
-
-
+      <img src={me} alt='Profile' className="bg" />
     </section>
   );
 };
