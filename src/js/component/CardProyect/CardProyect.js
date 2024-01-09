@@ -6,9 +6,9 @@ import { FaReact, FaBootstrap } from 'react-icons/fa';
 import { BiLogoCss3, BiLogoHtml5 } from 'react-icons/bi';
 import { MdKeyboardDoubleArrowUp } from 'react-icons/md';
 
-import './CardProject.css'; // Importing correct CSS file
+import './CardProyect.css'; // Importing correct CSS file
 
-const CardProject = ({ project }) => {
+const CardProyect = ({ proyect }) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -24,8 +24,8 @@ const CardProject = ({ project }) => {
         animate={{ y: open ? '0%' : '-100%' }}
         transition={{ duration: 0.6, ease: 'easeInOut', type: 'spring', bounce: 0.5 }}
       >
-        <h4>{project.title}</h4>
-        <p>{project.long_description}</p>
+        <h4>{proyect.title}</h4>
+        <p>{proyect.long_description}</p>
         <MdKeyboardDoubleArrowUp
           className='close_icon'
           onClick={() => setOpen(false)}
@@ -33,12 +33,12 @@ const CardProject = ({ project }) => {
       </motion.div>
 
       <div className='img_container'>
-        <img className='img' src={project.img} alt='' />
+        <img className='img' src={proyect.img} alt='' />
       </div>
 
       <div className='body_container'>
-        <h5>{project.title}</h5>
-        <p>{project.description}</p>
+        <h5>{proyect.title}</h5>
+        <p>{proyect.description}</p>
         <div className='footer_container'>
           <div className='tech_container'>
             <FaReact className='tech_icon' />
@@ -49,7 +49,7 @@ const CardProject = ({ project }) => {
           <div className='link_container'>
             <a
               className='social_icon'
-              href={project.link_github}
+              href={proyect.link_github}
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -57,7 +57,7 @@ const CardProject = ({ project }) => {
             </a>
             <a
               className='social_icon'
-              href={project.link_demo}
+              href={proyect.link_demo}
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -71,4 +71,4 @@ const CardProject = ({ project }) => {
   );
 };
 
-export default CardProject;
+export default CardProyect;
